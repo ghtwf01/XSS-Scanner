@@ -32,14 +32,6 @@ def main():
         parser.add_option('--u3', dest='url3', type='string', help='目标网址')
     except:
         pass
-    try:
-        parser.add_option('--u4', dest='url4', type='string', help='目标网址')
-    except:
-        pass
-    try:
-        parser.add_option('--u5', dest='url5', type='string', help='目标网址')
-    except:
-        pass
     (options, args) = parser.parse_args()
     try:
         url1 = options.url1
